@@ -6,7 +6,7 @@ st.set_page_config(page_title="Network Intrusion Detection", layout="centered")
 st.title("🔒 Network Intrusion Detection System")
 st.write("Enter connection details below to check if it's normal traffic or a potential attack.")
 
-API_URL = "http://127.0.0.1:8000/predict"
+API_URL = "https://intrusion-detection-project-k5fg.onrender.com/predict"
 
 # ---- Preset example patterns ----
 PRESETS = {
