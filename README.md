@@ -51,8 +51,6 @@ R2L and U2R recall remain low in absolute terms even after SMOTE. This was cross
 
 ### Explainability example
 
-### Explainability example
-
 **Global feature importance** — which features matter most for each class overall:
 
 ![Global SHAP feature importance](<img width="790" height="940" alt="Unknown" src="https://github.com/user-attachments/assets/c9bf7be1-e14c-4d45-85c8-3694d74cac62" />)
@@ -66,8 +64,11 @@ The prediction was driven primarily by connection duration (280s), an unusual se
 ## Tech Stack
 
 **Data & ML:** Python, pandas, NumPy, scikit-learn, XGBoost, imbalanced-learn (SMOTE), SHAP
+
 **Backend:** FastAPI, Pydantic
+
 **Frontend:** Streamlit
+
 **Deployment:** Render (API), Streamlit Community Cloud (frontend)
 
 ## Limitations & Honest Notes
