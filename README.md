@@ -3,6 +3,7 @@
 A machine learning system that classifies network connections as normal traffic or one of four attack types — DoS, Probe, R2L, or U2R — with a focus on handling severe class imbalance and providing explainable predictions.
 
 **🔗 Live Demo:** [https://intrusion-detection-project-ez39lgthrt5ivjb3euazut.streamlit.app](https://intrusion-detection-project-ez39lgthrt5ivjb3euazut.streamlit.app)
+
 **🔗 API:** [https://intrusion-detection-project-k5fg.onrender.com](https://intrusion-detection-project-k5fg.onrender.com)
 
 > Note: Both are hosted on free-tier services and may take 30–50 seconds to "wake up" if idle.
