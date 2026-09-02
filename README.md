@@ -53,11 +53,11 @@ R2L and U2R recall remain low in absolute terms even after SMOTE. This was cross
 
 **Global feature importance** — which features matter most for each class overall:
 
-![Global SHAP feature importance](<img width="790" height="940" alt="Unknown" src="https://github.com/user-attachments/assets/c9bf7be1-e14c-4d45-85c8-3694d74cac62" />)
+<img width="790" height="940" alt="Global SHAP feature importance" src="https://github.com/user-attachments/assets/c9bf7be1-e14c-4d45-85c8-3694d74cac62" />
 
 **Individual prediction explanation** — a connection correctly classified as R2L, with the specific features that drove the decision:
 
-![SHAP force plot for R2L prediction](<img width="1570" height="362" alt="Unknown-2" src="https://github.com/user-attachments/assets/46543e84-3bce-4f76-9c2e-6cdd33bcf0b7" />)
+<img width="1570" height="362" alt="SHAP force plot for R2L prediction" src="https://github.com/user-attachments/assets/46543e84-3bce-4f76-9c2e-6cdd33bcf0b7" />
 
 The prediction was driven primarily by connection duration (280s), an unusual service-access pattern, and the fact that the user was not logged in — consistent with how R2L attacks (unauthorized remote access attempts) actually behave.
 
